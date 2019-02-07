@@ -30,6 +30,7 @@ class Register extends Component {
             lastName: this.state.lastName,
             firstName: this.state.firstName,
           } 
+          console.log(data)
           axios.post('/users', {data})
 
     }
